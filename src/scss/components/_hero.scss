@@ -1,0 +1,39 @@
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 54px;
+    height: 100vh;
+    max-width: 777px;
+  }
+
+  &__title {
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 22px;
+    &-big {
+      font-weight: 700;
+    }
+  }
+
+  &__descr {
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+    margin: 0;
+  }
+}

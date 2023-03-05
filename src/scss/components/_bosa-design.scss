@@ -1,0 +1,18 @@
+.bosa-design {
+  &__wrapper-title {
+    background: url(../img/bosa-design.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 122px;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+
+
+}
+
