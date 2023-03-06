@@ -1,0 +1,100 @@
+.bosa-design-dop {
+  padding-top: 72px;
+  padding-bottom: 100px;
+  position: relative;
+  &__title {
+    font-family: 'CeraPro';
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #121212;
+    text-transform: uppercase;
+    max-width: 455px;
+    margin: 0 auto;
+  }
+  &__wrap {
+    position: relative;
+  }
+  &__bg {
+    position: absolute;
+    font-family: "CeraPro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: rgba(18, 18, 18, 0.03);
+    top: 26px;
+    left: 0;
+  }
+  &__circl {
+    height: 252px;
+    border-bottom: 2px solid;
+    border-color: red;
+    border-radius: 50%;
+  }
+  &__card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &--1 {
+      top: calc((100% * 0.12152 ) + 40%);
+      left: calc((100% * 0.12152 ) - 2%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--2 {
+      top: calc((100% * 0.12152 ) + 65%);
+      left: calc((100% * 0.12152 ) + 7%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--3 {
+      top: calc((100% * 0.12152 ) + 75%);
+      left: calc((100% * 0.12152 ) + 14.5%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--4 {
+      top: calc((100% * 0.12152 ) + 85%);
+      left: calc((100% * 0.12152 ) + 24%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--5 {
+      top: calc((100% * 0.12152 ) + 90%);
+      left: calc((100% * 0.12152 ) + 36.5%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--6 {
+      top: calc((100% * 0.12152 ) + 89%);
+      left: calc((100% * 0.12152 ) + 50.5%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--7 {
+      top: calc((100% * 0.12152 ) + 76%);
+      left: calc((100% * 0.12152 ) + 62.5%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+    &--8 {
+      top: calc((100% * 0.12152 ) + 50%);
+      left: calc((100% * 0.12152 ) + 75%);
+      transform: translateX( - calc((100% * 0.12152 ) + 40%));
+    }
+  }
+  &__text {
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'CeraPro';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #121212;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+}
