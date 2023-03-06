@@ -52,7 +52,14 @@
     font-size: 20px;
     line-height: 130%;
     color: #FFFFFF;
+    transition: border-color 0.3s ease-in-out,  background-color 0.3s ease-in-out;
+    cursor: pointer;
   }
+  &__btn:hover {
+    background-color: #4E4E4E;
+    border-color: #4E4E4E;
+  }
+
   &__block-img {
     width: 500px;
   }

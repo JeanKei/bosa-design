@@ -56,5 +56,11 @@
     padding: 18px 59px;
     margin: 0 auto;
     margin-top: 51px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  &__btn:hover {
+    background-color: #ffffff;
   }
 }
