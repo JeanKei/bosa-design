@@ -1,0 +1,59 @@
+.bosa-design-wa {
+  padding: 28px 0;
+  position: relative;
+  &__bg {
+    position: absolute;
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 222px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: rgba(18, 18, 18, 0.03);
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #121212;
+    max-width: 465px;
+    margin: 0;
+  }
+  &__descr {
+    padding-top: 22px;
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+    max-width: 225px;
+    margin-left: auto;
+  }
+  &__btn {
+    margin-top: 16px;
+    margin-left: auto;
+    display: block;
+    margin-left: auto;
+    width: 225px;
+    background: #121212;
+    border-radius: 305px;
+    padding: 18px 59px;
+    font-family: 'CeraPro';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  &__block-img {
+    width: 500px;
+  }
+}

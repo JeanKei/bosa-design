@@ -1,0 +1,230 @@
+.cta-disign {
+  padding-top: 86px;
+  padding-bottom: 86px;
+  font-family: 'CeraPro';
+  &__title {
+    display: block;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 113.5%;
+    letter-spacing: -0.06em;
+    color: var(--main-color);
+  }
+  &__subtitle  {
+    display: block;
+    padding-top: 7px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--main-color);
+  }
+  &__text {
+    display: block;
+    padding-top: 54px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--main-color);
+  }
+  &__content {
+    max-width: 596px;
+  }
+  &__form {
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  &__form-input {
+    width: 254px;
+    height: 46px;
+    border: 1px solid #000000;
+    border-radius: 57px;
+    padding: 13px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgba(18, 18, 18, 0.6);
+    margin-right: 18px;
+  }
+  &__wrap {
+    position: relative;
+  }
+  &__img1 {
+    position: absolute;
+    top: -42px;
+    right: 293px;
+  }
+  &__img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+
+.input-file-trigger {
+  font-family: 'CeraPro';
+  border: 1px solid #000000;
+  border-radius: 57px;
+  padding: 13px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(18, 18, 18, 0.6);
+  margin-right: 18px;
+  transition: color 0.3s ease-in-out,  background-color 0.3s ease-in-out;
+}
+
+.input-file-container {
+  position: relative;
+}
+
+
+.input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.file-return {
+  font-family: 'CeraPro';
+  position: absolute;
+  bottom: -52px;
+  left: 8px;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: bold;
+}
+.file-return:not(:empty):before {
+  content: "Выбранный файл: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main-btn {
+  font-family: 'CeraPro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 57px;
+  padding: 13px 20px;
+  border: 1px solid;
+  border-color: #000000;
+  transition: border-color 0.3s ease-in-out,  background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: #4E4E4E;
+  border-color: #4E4E4E;
+}
+
+@media (max-width: 1117px) {
+  .cta-disign__img2 {
+    position: absolute;
+    top: 16px;
+    right: -11px;
+    width: 233px;
+  }
+  .cta-disign__img1 {
+    position: absolute;
+    top: 7px;
+    right: 183px;
+    width: 150px;
+  }
+  .cta-disign__form-input {
+    width: unset;
+    max-width: 254px;
+  }
+}
+
+
+@media (max-width: 883px) {
+  .cta-disign .cta-disign__wrap .cta-disign__form {
+    flex-direction: column;
+  }
+  .cta-disign .cta-disign__wrap .form__label {
+    width: 100%;
+  }
+  .cta-disign .cta-disign__form-input {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .cta-disign .cta-disign__form {
+    padding-top: 80px;
+  }
+  .cta-disign__wrap .send__button-group {
+    width: 100%;
+  }
+  .cta-disign__form-submit {
+    width: 100%;
+  }
+  .cta-disign {
+    padding-bottom: 270px;
+  }
+  .cta-disign__img2 {
+    position: absolute;
+    top: 603px;
+    right: 193px;
+    width: 233px;
+  }
+  .cta-disign__img1 {
+    position: absolute;
+    top: 599px;
+    right: 417px;
+    width: 150px;
+  }
+  .input-file-container {
+    position: relative;
+    width: 100%;
+  }
+  .input-file-trigger {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .input-file {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-disign__title {
+    font-size: 32px;
+  }
+  .cta-disign__img2 {
+    top: 542px;
+  }
+  .cta-disign__img1 {
+    top: 563px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .cta-disign__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cta-disign__title {
+    font-size: 25px;
+  }
+}

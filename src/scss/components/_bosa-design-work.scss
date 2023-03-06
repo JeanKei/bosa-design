@@ -1,0 +1,105 @@
+.bosa-design-work {
+  background: url(../img/timeline.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  &__block {
+    min-height: 580px;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  &__title {
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 34px;
+  }
+  &__item {
+    font-family: 'CeraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    position: relative;
+    &--1 {
+      border-bottom: 1px solid #757575;
+    }
+    &--1:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      bottom: -5px;
+      left: 0;
+      border-radius: 100%;
+    }
+    &--2 {
+      border-bottom: 1px solid #757575;
+    }
+    &--2:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      bottom: -5px;
+      left: 0;
+      border-radius: 100%;
+    }
+    &--3 {
+      border-bottom: 1px solid #757575;
+    }
+    &--3:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      bottom: -5px;
+      left: 0;
+      border-radius: 100%;
+    }
+    &--4 {
+      border-bottom: 1px solid #757575;
+    }
+    &--4:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      bottom: -5px;
+      left: 0;
+      border-radius: 100%;
+    }
+    &--5 {
+      border-bottom: 1px solid #757575;
+    }
+    &--5:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      bottom: -5px;
+      left: 0;
+      border-radius: 100%;
+    }
+  }
+}
+
+
+

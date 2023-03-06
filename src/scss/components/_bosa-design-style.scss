@@ -1,0 +1,106 @@
+.style {
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px 32px 32px 85px;
+  }
+  &__title {
+    font-family: 'CeraPro';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 16px;
+  }
+  &__subtitle {
+    font-family: 'CeraPro';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: block;
+  }
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 380px 380px;
+  }
+  &__top-card--1 {
+    background: url(../img/style-top1.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    span {
+      max-width: 400px;
+    }
+  }
+  &__top-card--2 {
+    background: url(../img/style-top2.jpg);
+    background-size: cover;
+    background-position: center;
+    span {
+      max-width: 400px;
+    }
+  }
+  &__top-card--3 {
+    background: url(../img/style-top3.jpg);
+    background-size: cover;
+    background-position: center;
+    span {
+      max-width: 400px;
+    }
+  }
+  &__top-card--4 {
+    background: url(../img/style-top4.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / -1;
+    span {
+      max-width: 425px;
+    }
+  }
+  &__bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 380px 380px;
+  }
+  &__bottom-card--1 {
+    background: url(../img/style-bottom1.jpg);
+    background-size: cover;
+    background-position: center;
+    span {
+      max-width: 350px;
+    }
+  }
+  &__bottom-card--2 {
+    background: url(../img/style-bottom2.jpg);
+    background-size: cover;
+    background-position: center;
+    span {
+      max-width: 400px;
+    }
+  }
+  &__bottom-card--3 {
+    background: url(../img/style-bottom3.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3 / -1;
+    grid-row: 1 / 3;
+    span {
+      max-width: 400px;
+    }
+  }
+  &__bottom-card--4 {
+    background: url(../img/style-bottom4.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 3;
+    span {
+      max-width: 561px;
+    }
+  }
+}
