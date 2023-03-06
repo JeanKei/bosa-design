@@ -3,20 +3,22 @@
   padding-bottom: 86px;
   font-family: 'CeraPro';
   &__title {
+    font-family: 'CeraPro';
     display: block;
     font-weight: 500;
     font-size: 48px;
     line-height: 113.5%;
     letter-spacing: -0.06em;
-    color: var(--main-color);
+    color: #121212;
   }
   &__subtitle  {
+    font-family: 'CeraPro';
     display: block;
     padding-top: 7px;
     font-weight: 300;
     font-size: 16px;
     line-height: 130%;
-    color: var(--main-color);
+    color: #121212;
   }
   &__text {
     display: block;
@@ -24,7 +26,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 130%;
-    color: var(--main-color);
+    color: #121212;
   }
   &__content {
     max-width: 596px;

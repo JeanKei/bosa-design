@@ -64,3 +64,28 @@
     background-color: #ffffff;
   }
 }
+
+
+// адаптив
+@media (max-width: 1015px) {
+  .bosa-design-sostav__wrap {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 839px) {
+  .bosa-design-sostav__wrap {
+    flex-direction: column;
+  }
+  .bosa-design-sostav__content {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .bosa-design-sostav__title {
+    font-size: 35px;
+  }
+  .bosa-design-sostav__btn {
+    width: 100%;
+  }
+}

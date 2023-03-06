@@ -103,3 +103,73 @@
 
 
 
+@media (max-width: 967px) {
+  .bosa-design-work__item {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 819px) {
+  .bosa-design-work__timeline {
+    grid-template-columns: 1fr;
+  }
+  .bosa-design-work__item {
+    border-bottom: none;
+    border-left: 1px solid #757575;
+    padding-left: 20px;
+    &--1 {
+      padding-top: 0;
+    }
+    &--1:after {
+      top: 0px;
+      left: -5px;
+    }
+    &--2:after {
+     display: none;
+    }
+    &--3 {
+      padding-top: 0;
+    }
+    &--3:after {
+      top: 0px;
+      left: -5px;
+    }
+    &--4:after {
+      display: none;
+    }
+    &--5 {
+      padding-top: 0;
+    }
+    &--5:after {
+      top: 0px;
+      left: -5px;
+    }
+    &--7 {
+      padding-top: 0;
+    }
+    &--7:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      border-radius: 100%;
+      top: 0px;
+      left: -5px;
+    }
+    &--9 {
+      padding-top: 0;
+    }
+    &--9:after {
+      position: absolute;
+      content: '';
+      width: 9px;
+      height: 9px;
+      background: #757575;
+      border-radius: 100%;
+      top: 0px;
+      left: -5px;
+    }
+  }
+}
