@@ -35,5 +35,43 @@
     letter-spacing: -0.06em;
     color: #FFFFFF;
     margin: 0;
+    max-width: 582px;
+  }
+}
+
+
+// адаптив
+@media (max-width: 576px) {
+  .bosa-design-hero__title {
+    font-size: 35px;
+    line-height: 40px;
+    max-width: 400px;
+  }
+  .bosa-design-hero__descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+    max-width: 473px;
+  }
+  .bosa-design-hero__wrapper {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .bosa-design-hero__title {
+    font-size: 28px;
+    line-height: 35px;
+    max-width: 320px;
+  }
+  .bosa-design-hero__descr {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
   }
 }
