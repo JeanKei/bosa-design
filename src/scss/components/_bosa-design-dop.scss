@@ -96,6 +96,9 @@
   &__img {
     width: 100%;
     height: 100%;
+    &--mob {
+      display: none;
+    }
   }
 }
 
@@ -107,5 +110,152 @@
 }
 
 @media (max-width: 1123px) {
+  .bosa-design-dop__img--desk {
+    display: none;
+  }
+  .bosa-design-dop__img--mob {
+    margin-top: 20px;
+    display: block;
+    width: 20%;
+  }
+  .bosa-design-dop__card {
+    width: 200px;
+    &--1 {
+      top: calc((100% * 0.12152 ) - 8%);
+      left: calc((100% * 0.12152 ) + 0%);
+      transform: translateX( - calc((20% * 0.12152 ) + 0%));
+    }
+    &--2 {
+      top: calc((100% * 0.12152 ) + 4%);
+      left: calc((100% * 0.12152 ) + 10%);
+      transform: translateX( - calc((20% * 0.12152 ) + 10%));
+    }
+    &--3 {
+      top: calc((100% * 0.12152 ) + 24.3%);
+      left: calc((100% * 0.12152 ) + 18.5%);
+      transform: translateX( - calc((20% * 0.12152 ) + 18.5%));
+    }
+    &--4 {
+      top: calc((100% * 0.12152 ) + 35%);
+      left: calc((100% * 0.12152 ) + 22%);
+      transform: translateX( - calc((20% * 0.12152 ) + 22%));
+    }
+    &--5 {
+      top: calc((100% * 0.12152 ) + 47%);
+      left: calc((100% * 0.12152 ) + 18%);
+      transform: translateX( - calc((20% * 0.12152 ) + 18%));
+    }
+    &--6 {
+      top: calc((100% * 0.12152 ) + 60%);
+      left: calc((100% * 0.12152 ) + 16%);
+      transform: translateX( - calc((20% * 0.12152 ) + 16%));
+    }
+    &--7 {
+      top: calc((100% * 0.12152 ) + 69.5%);
+      left: calc((100% * 0.12152 ) + 8%);
+      transform: translateX( - calc((20% * 0.12152 ) + 8%));
+    }
+    &--8 {
+      top: calc((100% * 0.12152 ) + 80%);
+      left: calc((100% * 0.12152 ) + 0%);
+      transform: translateX( - calc((20% * 0.12152 ) + 0%));
+    }
+  }
+  .bosa-design-dop__text {
+    text-align: left;
+    max-width: 250px;
+  }
+}
 
+
+@media (max-width: 480px) {
+  .bosa-design-dop__card {
+    width: 200px;
+    &--1 {
+      top: calc((100% * 0.12152 ) - 8%);
+      left: calc((100% * 0.12152 ) + 0%);
+      transform: translateX( - calc((20% * 0.12152 ) + 0%));
+    }
+    &--2 {
+      top: calc((100% * 0.12152 ) + 4%);
+      left: calc((100% * 0.12152 ) + 11%);
+      transform: translateX( - calc((20% * 0.12152 ) + 11%));
+    }
+    &--3 {
+      top: calc((100% * 0.12152 ) + 24.3%);
+      left: calc((100% * 0.12152 ) + 19.5%);
+      transform: translateX( - calc((20% * 0.12152 ) + 19.5%));
+    }
+    &--4 {
+      top: calc((100% * 0.12152 ) + 35%);
+      left: calc((100% * 0.12152 ) + 23%);
+      transform: translateX( - calc((20% * 0.12152 ) + 23%));
+    }
+    &--5 {
+      top: calc((100% * 0.12152 ) + 47%);
+      left: calc((100% * 0.12152 ) + 21%);
+      transform: translateX( - calc((20% * 0.12152 ) + 21%));
+    }
+    &--6 {
+      top: calc((100% * 0.12152 ) + 60%);
+      left: calc((100% * 0.12152 ) + 17%);
+      transform: translateX( - calc((20% * 0.12152 ) + 17%));
+    }
+    &--7 {
+      top: calc((100% * 0.12152 ) + 69.5%);
+      left: calc((100% * 0.12152 ) + 9%);
+      transform: translateX( - calc((20% * 0.12152 ) + 9%));
+    }
+    &--8 {
+      top: calc((100% * 0.12152 ) + 80%);
+      left: calc((100% * 0.12152 ) - 1%);
+      transform: translateX( - calc((20% * 0.12152 ) - 1%));
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .bosa-design-dop__card {
+    width: 200px;
+    &--1 {
+      top: calc((100% * 0.12152 ) - 8%);
+      left: calc((100% * 0.12152 ) + 2%);
+      transform: translateX( - calc((20% * 0.12152 ) + 2%));
+    }
+    &--2 {
+      top: calc((100% * 0.12152 ) + 4%);
+      left: calc((100% * 0.12152 ) + 12%);
+      transform: translateX( - calc((20% * 0.12152 ) + 12%));
+    }
+    &--3 {
+      top: calc((100% * 0.12152 ) + 24.3%);
+      left: calc((100% * 0.12152 ) + 24.5%);
+      transform: translateX( - calc((20% * 0.12152 ) + 24.5%));
+    }
+    &--4 {
+      top: calc((100% * 0.12152 ) + 35%);
+      left: calc((100% * 0.12152 ) + 28%);
+      transform: translateX( - calc((20% * 0.12152 ) + 26%));
+    }
+    &--5 {
+      top: calc((100% * 0.12152 ) + 47%);
+      left: calc((100% * 0.12152 ) + 26%);
+      transform: translateX( - calc((20% * 0.12152 ) + 26%));
+    }
+    &--6 {
+      top: calc((100% * 0.12152 ) + 60%);
+      left: calc((100% * 0.12152 ) + 20%);
+      transform: translateX( - calc((20% * 0.12152 ) + 20%));
+    }
+    &--7 {
+      top: calc((100% * 0.12152 ) + 69.5%);
+      left: calc((100% * 0.12152 ) + 13%);
+      transform: translateX( - calc((20% * 0.12152 ) + 13%));
+    }
+    &--8 {
+      top: calc((100% * 0.12152 ) + 80%);
+      left: calc((100% * 0.12152 ) + 1%);
+      transform: translateX( - calc((20% * 0.12152 ) + 1%));
+    }
+  }
 }
