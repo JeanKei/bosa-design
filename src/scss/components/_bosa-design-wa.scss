@@ -65,7 +65,11 @@
   }
 }
 
-
+@media (max-width: 1382px) {
+  .bosa-design-wa__bg {
+    font-size: 138px;
+  }
+}
 @media (max-width: 1173px) {
   .bosa-design-wa__block-img {
     width: 50%
@@ -78,6 +82,11 @@
   }
 }
 
+@media (max-width: 892px) {
+  .bosa-design-wa__bg {
+    font-size: 86px;
+  }
+}
 
 @media (max-width: 791px) {
   .bosa-design-wa__wrap {
@@ -101,6 +110,18 @@
   }
   .bosa-design-wa__btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  .bosa-design-wa__bg {
+    font-size: 71px;
+  }
+}
+
+@media (max-width: 436px) {
+  .bosa-design-wa__bg {
+    font-size: 51px;
   }
 }
 
